@@ -1,0 +1,24 @@
+[
+    {
+        "Term": "Fall 2022",
+        "Status": "Closed",
+        "courseName": {
+            "courseType": "ANSC",
+            "courseNumber": "6010",
+            "courseSection": "01",
+            "courseIndex": "(6658)",
+            "courseTitle": "Comparative Animal Nutrition"
+        },
+        "courseNameSection": "ANSC6010*01",
+        "Location": "Guelph",
+        "meetingInfo": "LEC Mon 02:30PM - 05:20PM ANNU , Room 101",
+        "LectureInfo": "LEC Mon 02:30PM - 05:20PM ANNU , Room 101",
+        "LabInfo": "N/A",
+        "SeminarInfo": "N/A",
+        "ExamInfo": "N/A",
+        "Prof": "J. Atkinson",
+        "capacity": "0 / 16",
+        "credit": "0.50",
+        "academicLevel": "Graduate"
+    }
+]

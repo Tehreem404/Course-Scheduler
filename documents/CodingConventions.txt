@@ -1,0 +1,6 @@
+CIS*3760 - Team303
+
+***Coding Conventions***
+    Case: Camel Case
+    Indentation: 4 spaces (standard tab)
+    CPL: 79

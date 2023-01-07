@@ -1,0 +1,11 @@
+[Unit]
+Description=Gunicorn instance to serve Flask
+After=network.target
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/cis-3760/cis3760-website/api
+Environment="PATH=/home/ubuntu/cis-3760/cis3760-website/api/venv/bin"
+ExecStart=/home/ubuntu/cis-3760/cis3760-website/api/venv/bin/gunicorn --bind 0.0.0.0:5000 wsgi:app
+[Install]
+WantedBy=multi-user.target

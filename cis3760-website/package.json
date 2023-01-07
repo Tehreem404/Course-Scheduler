@@ -1,0 +1,60 @@
+{
+  "name": "cis3760-website",
+  "packageManager": "yarn@3.2.4",
+  "scripts": {
+    "start": "react-scripts start",
+    "start-api": "python3 -m venv venv && source venv/bin/activate && cd api && flask run --no-debugger",
+    "build": "react-scripts build",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@devexpress/dx-react-core": "^3.0.6",
+    "@devexpress/dx-react-scheduler": "^3.0.6",
+    "@devexpress/dx-react-scheduler-material-ui": "^3.0.6",
+    "bootstrap": "^5.2.2",
+    "create-react-app": "^5.0.1",
+    "eslint-config-react-app": "^7.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "rrule": "^2.7.1",
+    "web-vitals": "^3.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "@babel/register": "^7.18.9",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-preset-react-app-babel-7": "^4.0.2-0",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.5",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "identity-obj-proxy": "^3.0.0",
+    "ignore-styles": "^5.0.1",
+    "jest": "^27.5.1",
+    "jest-environment-jsdom": "^27.5.1"
+  }
+}

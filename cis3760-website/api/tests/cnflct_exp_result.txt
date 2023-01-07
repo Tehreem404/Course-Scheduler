@@ -1,0 +1,1 @@
+[{'title': 'ANSC6010*01', 'startTime': '14:30', 'endTime': '17:20', 'type': 'LEC', 'conflict': ['Warning: ANSC6010*01 LEC conflicts with AGR1110*0104 LEC on Mon'], 'location': 'Guelph', 'day': 'Mon'}]

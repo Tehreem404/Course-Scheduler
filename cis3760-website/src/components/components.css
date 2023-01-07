@@ -1,0 +1,101 @@
+
+.colour-nav {
+    background-color: darkslateblue;
+}
+
+.dropdown-basic-button{
+    background-color: darkslateblue;
+}
+
+#nav-dropdown{
+    background-color: darkslateblue;
+    border-color: darkslateblue;
+    margin-top: 15px;
+}
+#nav-dropdown:hover{
+    background-color: rgb(48, 42, 90);
+    border-color: rgb(48, 42, 90);
+}
+
+.sem-body {
+    display: flex;
+    flex-direction: column;
+    color: darkslateblue;
+  }
+
+.header-sem {
+    text-align: center;
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    /* justify-content: center;
+    background-position: center; */
+}
+
+/* button csss components */
+#reg-button{
+    border: 2px solid;
+    background-color: darkslateblue;
+    border-color: darkslateblue;
+    margin: 5px;
+}
+
+#reg-button:hover{
+    background-color: rgb(48, 42, 90);
+    border-color: rgb(48, 42, 90);
+}
+#ghost-button{
+    background-color: transparent;
+    border-color: darkslateblue;
+    border: 2px solid;
+    color: darkslateblue;
+    margin: 5px;
+}
+#ghost-button:hover{
+    background-color: darkslateblue;
+    border-color: darkslateblue;
+    /* border: 1px; */
+    color: white;
+}
+
+/* card css components */
+#card-header {
+    color: darkslateblue;
+    font-weight: bold ;
+}
+#card-body {
+    color: darkslateblue;
+    font-size: small;
+}
+
+/* table css component */
+.tableFixHead {
+    overflow-y: auto;
+    height: 500px;
+    background-color: white;
+    border-color: darkslateblue;
+  }
+  .tableFixHead thead th {
+    position: sticky;
+    top: 0;
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+  }
+  table {
+    width: 100%;
+  }
+  th,
+  td {
+    padding: 8px 15px;
+    border: 2px solid darkslateblue;
+  }
+  th {
+    background: white;
+  }
+
+.List {
+    max-height: 500px;
+    overflow-y: scroll;
+}

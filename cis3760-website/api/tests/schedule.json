@@ -1,0 +1,46 @@
+[
+    {
+        "Term": "Fall 2022",
+        "Status": "Open",
+        "courseName": {
+            "courseType": "AGR",
+            "courseNumber": "1110",
+            "courseSection": "0104",
+            "courseIndex": "(6603)",
+            "courseTitle": "Intro to Agri-Food Systems"
+        },
+        "courseNameSection": "AGR1110*0104",
+        "Location": "Guelph",
+        "meetingInfo": "LEC Mon, Wed, Fri 02:30PM - 03:20PM ALEX , Room 100 SEM Fri 08:30AM - 11:20AM CRSC , Room 121A EXAM Fri 11:30AM - 01:30PM (2022/12/09) Room TBA",
+        "LectureInfo": "LEC Mon, Tues, Fri 02:30PM - 03:20PM ALEX , Room 100",
+        "LabInfo": "N/A",
+        "SeminarInfo": "SEM Fri, Mon 08:30AM - 11:20AM CRSC , Room 121A",
+        "ExamInfo": "EXAM Fri 11:30AM - 01:30PM (2022/12/09) Room TBA",
+        "Prof": "E. Lee, A. Robinson, M. Raizada",
+        "capacity": "1 / 32",
+        "credit": "1.00",
+        "academicLevel": "Undergraduate"
+    },
+    {
+        "Term": "Fall 2022",
+        "Status": "Open",
+        "courseName": {
+            "courseType": "AGR",
+            "courseNumber": "4450",
+            "courseSection": "01",
+            "courseIndex": "(6629)",
+            "courseTitle": "Research Project I"
+        },
+        "courseNameSection": "AGR4450*01",
+        "Location": "Guelph",
+        "meetingInfo": "LEC Mon, 11:30AM - 12:20PM ANNU , Room 002",
+        "LectureInfo": "LEC Mon, 11:30AM - 12:20PM ANNU , Room 002",
+        "LabInfo": "N/A",
+        "SeminarInfo": "N/A",
+        "ExamInfo": "N/A",
+        "Prof": "M. Kalischuk",
+        "capacity": "10 / 15",
+        "credit": "0.50",
+        "academicLevel": "Undergraduate"
+    }
+]

@@ -1,0 +1,18 @@
+new dependencies:
+
+
+Backend:
+sudo pip install pylint
+sudo pip install pre-commmit
+
+once in git repo:
+	pre-commit install
+
+Front-end:
+
+sudo apt install pre-commit -y
+sudo npm install -g install-peerdeps
+sudo install-peerdeps --dev eslint-config-airbnb -n
+sudo install-peerdeps --dev eslint-config-airbnb-base -n
+
+WHEN PROMPTED TO USE YARN SAY NO LIVE UR OWN LIFE THE MACHINE DOESNT CONTROL YOU!
